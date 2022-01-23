@@ -1,0 +1,45 @@
+.banner-image {
+    object-fit: contain;
+    height: 100px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.welcome {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.welcome-note {
+    margin-right: 10px;
+}
+
+/* h3,
+h4 {
+    color: white;
+} */
+
+.product-shoutout {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.product-image {
+    object-fit: contain;
+    height: 400px;
+}
+
+.product-text {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}

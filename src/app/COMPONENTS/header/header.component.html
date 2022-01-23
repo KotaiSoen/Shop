@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div>
+        <a routerLink='./home-component' class="shop">
+          <h2 style='color: indigo'>S</h2>
+          <h2>hop.</h2>
+        </a>
+    </div>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink='./home-component'>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink='./electronics-component'>Electronics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink='./fashion-component'>Fashion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink='./tools-component'>Tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink='./books-component'>Books</a>
+        </li>
+        <li class="nav-item dropdown">
+          <div ngbDropdown>
+            <button class="btn" ngbDropdownToggle>More</button>
+            <div ngbDropdownMenu>
+              <a routerLink="./cars-component">
+                <button ngbDropdownItem>Cars</button>
+              </a>
+              <a routerLink="./foodstuffs-component">
+                <button ngbDropdownItem>Foodstuffs</button>
+              </a>
+              <a routerLink="./toys-component">
+                <button ngbDropdownItem>Toys</button>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <button class="btn border-right-0 search-button"><mat-icon class="search-icon">search</mat-icon></button>
+        <input class="form-control mr-sm-2 search-space" type="search" placeholder="Search" aria-label="Search">
+      </form>
+      <div class="shopping-sign">
+        <div>
+          <fa-icon [icon]="faShoppingCart"></fa-icon>
+        </div>
+        <div class="circle">
+          0
+        </div>
+      </div>
+    </div>
+  </nav>
+
+

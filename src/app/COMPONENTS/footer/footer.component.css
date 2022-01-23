@@ -1,0 +1,28 @@
+.container-fluid {
+    color: white;
+    background: radial-gradient(ellipse at bottom, #292d61 30%, #171941 80%);
+    margin-top: 50px;
+    padding: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.caption {
+    display: flex;
+}
+
+.icons {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

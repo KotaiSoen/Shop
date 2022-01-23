@@ -1,0 +1,48 @@
+.shop {
+    display: flex;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-icon {
+    color: grey;
+    object-fit: contain;
+    font-size: 15px;
+}
+
+
+.search-button {
+    border-color: grey;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control,
+.search-button {
+    height: 25px;
+}
+
+.form-control {
+    width: 100px;
+}
+
+.form-control::placeholder {
+    font-size: 12px;
+}
+
+.shopping-sign {
+    display: flex;
+}
+
+.circle {
+    margin-left: 2px;
+    font-size: 15px;
+}
